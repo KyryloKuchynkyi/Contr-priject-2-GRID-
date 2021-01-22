@@ -104,6 +104,143 @@
 
 /* SECTION2 */
 
+.section2 {
+    height: 836px;
+}
 
+.first_line {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    height: 200px;
+}
+
+.back_ground {
+    background-image: url(Photo1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.red {
+    background-color: #993333;
+    display: grid;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.red h3 {
+    color: white;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.red a {
+    justify-items: start;
+    color: white;
+    padding-left: 30px;
+}
+
+.lg {
+    display: grid;
+
+    justify-items: end;
+    align-items: center;
+    padding-right: 75px;
+}
+
+.lg img {
+    width: 300px;
+}
+
+
+.second_line {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    height: 638px;
+}
+
+.first_box {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.input_box {
+    background-color: #009933c7;
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    padding-right: 155px;
+}
+
+.input_box h3 {
+    font-size: 40px;
+    color: white;
+}
+
+.input_box a {
+    font-size: 15px;
+    color: white;
+}
+
+.input input {
+    width: 273px;
+    height: 45px;
+    background-color: #66ff99;
+    border: none;
+}
+
+.input input::placeholder {
+    padding-left: 20px;
+    color:#006633;
+}
+
+.input button {
+    width: 125px;
+    height: 45px;
+    left: -5px;
+    background-color:#006633;
+    border: none;
+    color: white;
+}
+
+.grass {
+    background-image: url(Photo2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.second_box {
+    background-image: url(Photo3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cl {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+}
+
+.face {
+    background-color: #336699;
+    display: grid;
+    grid-template-rows: 8fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.face a {
+    color: white;
+    font-weight: bold;
+}
+
+/* SECTION3 */
+
+.section3 {
+    border: 2px solid black;
+}
 
 
