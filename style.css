@@ -1,5 +1,6 @@
 
 /* HEADER */
+
 .header {
     height: 115px;
     align-items: center;
@@ -54,7 +55,54 @@
 }
 
 /* MAIN */
+/* SECTION1 */
 
+.section1 {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 600px;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 1em;
+}
+
+.welcome h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.welcome a {
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.welcome button {
+    width: 270px;
+    height: 65px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #339966;
+    border: none;
+    border-radius: 15px/30px;
+}
+
+/* SECTION2 */
 
 
 
