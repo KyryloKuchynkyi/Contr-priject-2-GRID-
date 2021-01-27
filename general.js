@@ -25,3 +25,15 @@ function closeModal() {
 }
 
 closeM.addEventListener("click", closeModal)
+
+
+// LIKE
+
+let likeBtn = document.querySelectorAll(".like_one")
+
+    likeBtn.forEach((item) => {
+        item.addEventListener("click", function (e) {
+            e.preventDefault();
+            item.classList.toggle("liked")
+        })
+    })

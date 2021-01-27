@@ -313,6 +313,28 @@
     line-height: 10px;
 }
 
+
+.like_one {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    bottom: 59px;
+    position: relative;
+}
+
+.like_one img {
+    width: 40px;
+    height: 40px;
+}
+
+.like_one:hover,.liked  {
+    background-color: white;
+    position: relative;
+    bottom: 59px;
+}
+
 .qub {
     width: 89px;
     height: 89px;
