@@ -241,7 +241,7 @@
 /* SECTION3 */
 
 .section3 {
-    height: 685px;
+    height: auto;
 }
 
 .events {
@@ -270,6 +270,7 @@
     justify-items: center;
     align-items: center;
     line-height: 50px;
+    margin-bottom: 40px;
 }
 
 .box h2 {
@@ -287,6 +288,16 @@
     line-height: 25px;
 }
 
+.box_a_red {
+    padding-top: 10px;
+    color: #993333;
+}
+
+.box img {
+    width: 300px;
+    height: 250px;
+}
+
 .box button {
     width: 88px;
     height: 37px;
@@ -294,6 +305,12 @@
     color: white;
     border: none;
     margin-top: 40px;
+}
+
+.green {
+    font-size: 30px;
+    color: #339966;
+    line-height: 10px;
 }
 
 .qub {
